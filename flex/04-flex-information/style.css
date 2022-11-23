@@ -8,33 +8,22 @@ img {
   height: 100px;
 }
 
-
-span {
-  display: flex;
-  justify-content: center;
-  margin-right: 52px;
-  align-items: center;
-}
-
-
-.item-1,
-.item-2,
-.item-3,
-.item-4 {
-  display: flex;
-  flex-direction: column;
-  width: 200px;
-}
-
-
 .title {
   font-size: 36px;
   font-weight: 900;
-  display: flex;
-  justify-content: center;
-  margin-bottom: 32px;
 }
 
+.big-block {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 32px;
+  gap: 52px;
+  flex-wrap: wrap;
+}
+
+.small-blocks {
+  width: 200px;
+}
 
 /* do not edit this footer */
 .footer {
